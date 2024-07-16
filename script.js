@@ -8,7 +8,7 @@ const currentTempElement = document.getElementById('current-temp');
 
 const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
+const { token } = require('./config.json');
 
 setInterval(() => {
     const time = new Date();
